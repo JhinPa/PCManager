@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Play&display=swap');
+
+body{
+	font-family: arial, helvetica;
+	background: #424242;
+}
+
+.menu{
+	font-family: 'Orbitron', sans-serif;
+	list-style: none;
+	padding: 0;
+	background: #181818;
+	width: 100%;
+	text-shadow: 2px 2px #808080;
+	margin: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	}
+
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;}
+
+.menu li{
+	display: inline-block;
+	text-align: center;}
+
+.menu li a:hover{
+	background: #22eaf0;}
+	
+.menu li ul {
+	display:none;
+	position:absolute;
+	}
+	
+.menu li:hover > ul {
+	display:block;
+	background: #181818;
+}
+
+.menu li ul li {
+	position:relative;
+}
+	
+.menu li ul li ul {
+	right:-200px;
+	top:0px;
+	}
+
+
+.text {
+	list-style: none;
+	padding: 75px;
+	
+	}
+	
+.text h1 {
+	color:#FFFFFF;
+	font-size: 50px;
+	text-decoration: underline;
+	text-shadow: 4px 4px #808080;
+	font-family: 'Orbitron', sans-serif;
+	}
+	
+.text p {
+	font-family: 'Play', sans-serif;
+	color:White;
+	font-size: 25px;
+	text-align: justify;	
+	}	
+	
+.text h2 {
+	color:White;
+	text-decoration: underline;
+	font-family: 'Orbitron', sans-serif;
+	}
+	
+.text li {
+	font-family: 'Play', sans-serif;
+	font-size: 25px;
+	color:White;
+	list-style-type:square;
+	text-align: justify
+}
+
+.text label {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 30px;
+	color:White;
+	text-shadow: 2px 2px #808080;
+}
+
+.text select {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	color:White;
+	background-color: #181818 ;
+	max-width: 635px ;
+	height: 40px;
+	border-color: white;
+	border-width: 4px;
+}
+
+.bottom p {
+	font-family: Times New Roman,Times,serif;
+	color:White;
+	font-size: 15px;
+	text-align: right;
+	margin-right: 75px;
+	margin-top: -50px;
