@@ -120,7 +120,7 @@
 		var dg1 = document.getElementById("dg1").value;
 		var dg2 = document.getElementById("dg2").value;		
         var sum = parseFloat(mb) + parseFloat(cpu) + parseFloat(tg) + parseFloat(ram) + parseFloat(ref) + parseFloat(dg1) + parseFloat(dg2);
-		var total =  document.getElementById("total").innerHTML = sum
+		var total =  document.getElementById("total").innerHTML = Number((sum).toFixed(2)) + " €";
     }
 
 </script>
