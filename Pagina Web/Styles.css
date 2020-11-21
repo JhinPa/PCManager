@@ -101,9 +101,31 @@ body{
 	color:White;
 	background-color: #181818 ;
 	max-width: 635px ;
+	min-width: 635px ;
 	height: 40px;
 	border-color: white;
 	border-width: 4px;
+}
+	
+
+.text button {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	color:White;
+	background-color: #181818 ;
+	height: 50px;
+	width: 200px;
+	border-color: white;
+	border-width: 7px;
+}
+
+.total p {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+	color:White;
+	background-color: #181818 ;
+	max-width: 635px ;
+	height: 30px;
 }
 
 .bottom p {
@@ -113,3 +135,4 @@ body{
 	text-align: right;
 	margin-right: 75px;
 	margin-top: -50px;
+}
